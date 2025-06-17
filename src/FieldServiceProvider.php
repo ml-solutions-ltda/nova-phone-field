@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YieldStudio\NovaPhoneField;
+namespace MlSolutions\NovaPhoneField;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;

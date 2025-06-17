@@ -8,10 +8,10 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 ### What's Changed
 
-- PhoneNumber field can now be `copyable` by @JamesHemery and @ch-hamzzyy in https://github.com/YieldStudio/nova-phone-field/pull/8 and https://github.com/YieldStudio/nova-phone-field/pull/4
-- PhoneNumber field can now show `helper` text by @JamesHemery in https://github.com/YieldStudio/nova-phone-field/pull/8
-- Upgrade to inputmask 5 (fixes copy/paste and indicator change problems) by @JamesHemery in https://github.com/YieldStudio/nova-phone-field/pull/8
-- Replaced PHPCS by Laravel Pint by @JamesHemery in https://github.com/YieldStudio/nova-phone-field/pull/8
+- PhoneNumber field can now be `copyable` by @JamesHemery and @ch-hamzzyy in https://github.com/MlSolutions/nova-phone-field/pull/8 and https://github.com/MlSolutions/nova-phone-field/pull/4
+- PhoneNumber field can now show `helper` text by @JamesHemery in https://github.com/MlSolutions/nova-phone-field/pull/8
+- Upgrade to inputmask 5 (fixes copy/paste and indicator change problems) by @JamesHemery in https://github.com/MlSolutions/nova-phone-field/pull/8
+- Replaced PHPCS by Laravel Pint by @JamesHemery in https://github.com/MlSolutions/nova-phone-field/pull/8
 
 ### Breaking change
 
@@ -27,13 +27,13 @@ UPDATE _table_ SET _field_=CONCAT('+', REGEXP_REPLACE(_field_, '\\D', ''))
 ```
 ### New Contributors
 
-- @ch-hamzzyy made their first contribution in https://github.com/YieldStudio/nova-phone-field/pull/5
+- @ch-hamzzyy made their first contribution in https://github.com/MlSolutions/nova-phone-field/pull/5
 
-**Full Changelog**: https://github.com/YieldStudio/nova-phone-field/compare/1.0.1...2.0.0
+**Full Changelog**: https://github.com/MlSolutions/nova-phone-field/compare/1.0.1...2.0.0
 
 ## 1.0.1 - 2022-06-02
 
-**Full Changelog**: https://github.com/YieldStudio/nova-phone-field/compare/1.0.0...1.0.1
+**Full Changelog**: https://github.com/MlSolutions/nova-phone-field/compare/1.0.0...1.0.1
 
 - Fix +33 (French number) mask
 

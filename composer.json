@@ -1,29 +1,16 @@
 {
-    "name": "yieldstudio/nova-phone-field",
+    "name": "mlsolutions/nova-phone-field",
     "description": "Nova Phone Number field with a dynamic mask based on the country code inserted by the user.",
     "keywords": [
-        "yieldstudio",
+        "ml-solutions-ltda",
         "laravel",
         "nova",
         "phone mask",
         "input mask"
     ],
-    "homepage": "https://github.com/YieldStudio/nova-phone-field",
+    "homepage": "https://github.com/MlSolutions/nova-phone-field",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Gustavo Bissolli",
-            "email": "gustavo.bissolli@gmail.com",
-            "homepage": "https://github.com/bissolli",
-            "role": "Creator"
-        },
-        {
-            "name": "James Hemery",
-            "email": "james@yieldstudio.fr",
-            "homepage": "https://yieldstudio.fr",
-            "role": "Fork maintener"
-        }
-    ],
+    "authors": [],
     "repositories": [
         {
             "type": "composer",
@@ -31,18 +18,18 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "laravel/nova": "^4.0"
+        "php": "^8.3",
+        "laravel/nova": "^5.0"
     },
     "autoload": {
         "psr-4": {
-            "YieldStudio\\NovaPhoneField\\": "src/"
+            "MlSolutions\\NovaPhoneField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "YieldStudio\\NovaPhoneField\\FieldServiceProvider"
+                "MlSolutions\\NovaPhoneField\\FieldServiceProvider"
             ]
         }
     },
