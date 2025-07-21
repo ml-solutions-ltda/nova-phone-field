@@ -1,7 +1,7 @@
 # A global Phone Number field for Laravel Nova
 
 [![Latest Version](https://img.shields.io/github/release/ml-solutions-ltda/nova-phone-field?style=flat-square)](https://github.com/ml-solutions-ltda/nova-phone-field/releases)
-[![Total Downloads](https://img.shields.io/packagist/dt/ml-solutions-ltda/nova-phone-field?style=flat-square)](https://packagist.org/packages/ml-solutions-ltda/nova-phone-field)
+[![Total Downloads](https://img.shields.io/packagist/dt/mlsolutions/nova-phone-field?style=flat-square)](https://packagist.org/packages/mlsolutions/nova-phone-field)
 
 Nova Phone Number field with a dynamic mask based on the country code inserted by the user.
 
